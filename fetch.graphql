@@ -1,0 +1,18 @@
+{
+  allOpportunities(
+    filters: {
+      status: "open"
+      createdAtFrom: "2024-01-02"
+      createdAtTo: "2024-12-20"
+    }
+  ) {
+    id
+    title
+    programme {
+      name
+    }
+    organisation {
+      name
+    }
+  }
+}
